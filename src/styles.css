@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-size: 25px;
+}
+
+.options {
+    margin-right: 1%;
+    padding: 0.5%;
+    max-width: 25%;
+    float: left;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.option {
+    margin-bottom: 30px;
+}
+
+select {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+button {
+    margin-top: 4px;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.score {
+    padding-left: 1%;
+    background-color: beige;
+    /*max-width: 60%;*/
+    float: left;
+    border-radius: 4px;
+}
+
+.warning {
+}
