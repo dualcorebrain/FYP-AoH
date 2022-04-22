@@ -2,10 +2,10 @@
   "name": "WebMidiLearning",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/AceOfHeart5/WebMidiLearning.git",
+  "repository": "https://github.com/dualcorebrain/FYP-AoH",
   "author": "Evan",
   "license": "MIT",
-  "homepage": "https://AceOfHeart5.github.io/WebMidiLearning",
+  "homepage": "https://github.com/dualcorebrain/FYP-AoH",
   "devDependencies": {
     "css-loader": "^4.2.1",
     "html-webpack-plugin": "^4.3.0",
