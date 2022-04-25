@@ -1,8 +1,8 @@
 const KEY_SIGNATURES = new Map();
 
-/* The key for these maps is a scale degree. The value is an array
+/* The key for these maps is a scale degree. The values is the array
 containing the string for the pitch class of that degree, and the
-base midi value for the pitch class. Observe that the string is 
+base mid values for the pitch class. Observe that the string is 
 the note as we'd draw it in that key. For example, F# in G major 
 actually gets drawn as normal F. The midi value, however, is still
 F#. */
@@ -28,9 +28,7 @@ and whole steps. We can easily create a map of midi values and notes
 for each key by simply starting with the root pitch. For the major
 and minor functions, the rootMidi is the base midi value of the 
 root of the scale, and the rootStaff is the index of the root
-on the staff. The accidental arr is one of the two arrays above, which
-defines the scale as using flats or sharps. Accidental_num is the number
-of elements from this array that are included in the key. */
+on the staff.  */
 
 const getAccidentalArray = function(accidental_arr, accidental_num) {
     let arr = new Array(accidental_num + 1);

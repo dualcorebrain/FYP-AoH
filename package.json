@@ -1,10 +1,10 @@
 {
   "name": "WebMidiLearning",
-  "version": "1.0.0",
+  "version": "2.1",
   "main": "src/index.js",
   "repository": "https://github.com/dualcorebrain/FYP-AoH",
-  "author": "Evan",
-  "license": "MIT",
+  "author": "Anurag Prasad",
+  "license": "",
   "homepage": "https://github.com/dualcorebrain/FYP-AoH",
   "devDependencies": {
     "css-loader": "^4.2.1",
